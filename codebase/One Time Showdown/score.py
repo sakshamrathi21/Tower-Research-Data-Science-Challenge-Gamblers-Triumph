@@ -148,8 +148,7 @@ def score_game(player_data,dealer_data,table_index,cards_per_tc=20,debug=False):
     return tot_score
 
 if __name__=='__main__':
-    table_index=1
-    player_data=Player.data_loader("train.csv",table_index,'player')
-    dealer_data=Player.data_loader("train.csv",table_index,'dealer')
-    print("earnings")
-    print(score_game(player_data,dealer_data,table_index,debug=True))
+    for table_index in range(0, 5):
+        player_data=Player.data_loader("train.csv",table_index,'player')
+        dealer_data=Player.data_loader("train.csv",table_index,'dealer')
+        print(table_index, score_game(player_data,dealer_data,table_index,debug=False))
