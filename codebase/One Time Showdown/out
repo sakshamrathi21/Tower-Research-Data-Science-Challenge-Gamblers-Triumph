@@ -53678,4 +53678,1253 @@ Actual Spy Value 73.37
 Actual Card Value 5.0
 Curr Total 0
 Total value for player: 5.0
-===== 
+===== Player's Call =====
+player spy []
+KAVYA: 5.0 0 8.0 11
+Actual Spy Value 51.23
+Actual Card Value 3.0
+Curr Total 5.0
+Total value for player: 8.0
+===== Player's Call =====
+player spy []
+KAVYA: 8.0 0 10.0 11
+Actual Spy Value 40.13
+Actual Card Value 2.0
+Curr Total 8.0
+Total value for player: 10.0
+===== Player's Call =====
+player spy []
+KAVYA: 10.0 0 15.0 11
+Actual Spy Value 32.81
+Actual Card Value 5.0
+Curr Total 10.0
+Total value for player: 15.0
+===== Player's Call =====
+player spy [ 12.52  11.66  10.95  10.1   10.17 200.33  73.37  51.23  40.13  32.81]
+KAVYA: 15.0 0 25.0 11
+Final player score:  15.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 0 25.0 11
+Actual Spy Value 9.25
+Actual Card Value 11.0
+Curr Total 0
+Total value for dealer: 11.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 11.0 25.0 22.0
+Actual Spy Value 8.97
+Actual Card Value 11.0
+Curr Total 11.0
+Total value for dealer: 22.0
+Final dealer score:  22.0
+scoreboard: {'player_bust': 22, 'surrender': 362, 'dealer_bust': 251, 'player_win': 240, 'dealer_win': 20, 'tie': 81}
+score: 268.0
+===== Game: 1. player_idx: 10. dealer_idx: 8. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 6 11
+Actual Spy Value 74.39
+Actual Card Value 6.0
+Curr Total 0
+Total value for player: 6.0
+===== Player's Call =====
+player spy []
+KAVYA: 6.0 0 9.0 11
+Actual Spy Value 51.05
+Actual Card Value 3.0
+Curr Total 6.0
+Total value for player: 9.0
+===== Player's Call =====
+player spy []
+KAVYA: 9.0 0 20.0 11
+Actual Spy Value 38.79
+Actual Card Value 11.0
+Curr Total 9.0
+Total value for player: 20.0
+===== Player's Call =====
+player spy []
+KAVYA: 20.0 0 24.0 11
+Final player score:  20.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 0 24.0 11
+Actual Spy Value 9.53
+Actual Card Value 2.0
+Curr Total 0
+Total value for dealer: 2.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 2.0 24.0 5.0
+Actual Spy Value -8.71
+Actual Card Value 3.0
+Curr Total 2.0
+Total value for dealer: 5.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 5.0 24.0 10.0
+Actual Spy Value 2.66
+Actual Card Value 5.0
+Curr Total 5.0
+Total value for dealer: 10.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 10.0 24.0 20.0
+Actual Spy Value 7.85
+Actual Card Value 10.0
+Curr Total 10.0
+Total value for dealer: 20.0
+Final dealer score:  20.0
+scoreboard: {'player_bust': 22, 'surrender': 362, 'dealer_bust': 251, 'player_win': 240, 'dealer_win': 20, 'tie': 82}
+score: 268.0
+===== Game: 1. player_idx: 9. dealer_idx: 10. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 5 5
+Actual Spy Value 32.95
+Actual Card Value 5.0
+Curr Total 0
+Total value for player: 5.0
+===== Player's Call =====
+player spy []
+KAVYA: 5.0 0 15.0 5
+Actual Spy Value 28.23
+Actual Card Value 10.0
+Curr Total 5.0
+Total value for player: 15.0
+===== Player's Call =====
+player spy []
+KAVYA: 15.0 0 22.0 5
+Final player score:  15.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 0 22.0 5
+Actual Spy Value -7.22
+Actual Card Value 5.0
+Curr Total 0
+Total value for dealer: 5.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 5.0 22.0 16.0
+Final dealer score:  5.0
+scoreboard: {'player_bust': 22, 'surrender': 363, 'dealer_bust': 251, 'player_win': 240, 'dealer_win': 20, 'tie': 82}
+score: 267.5
+===== Game: 1. player_idx: 8. dealer_idx: 7. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 11 11
+Actual Spy Value 18.99
+Actual Card Value 11.0
+Curr Total 0
+Total value for player: 11.0
+===== Player's Call =====
+player spy []
+KAVYA: 11.0 0 20.0 11
+Actual Spy Value 17.21
+Actual Card Value 9.0
+Curr Total 11.0
+Total value for player: 20.0
+===== Player's Call =====
+player spy []
+KAVYA: 20.0 0 27.0 11
+Final player score:  20.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 0 27.0 11
+Actual Spy Value 8.48
+Actual Card Value 10.0
+Curr Total 0
+Total value for dealer: 10.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 10.0 27.0 19.0
+Actual Spy Value 6.8
+Actual Card Value 9.0
+Curr Total 10.0
+Total value for dealer: 19.0
+Final dealer score:  19.0
+scoreboard: {'player_bust': 22, 'surrender': 363, 'dealer_bust': 251, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 268.5
+===== Game: 1. player_idx: 8. dealer_idx: 8. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 4 11
+Actual Spy Value 12.22
+Actual Card Value 4.0
+Curr Total 0
+Total value for player: 4.0
+===== Player's Call =====
+player spy []
+KAVYA: 4.0 0 8.0 11
+Actual Spy Value 11.85
+Actual Card Value 4.0
+Curr Total 4.0
+Total value for player: 8.0
+===== Player's Call =====
+player spy []
+KAVYA: 8.0 0 11.0 11
+Actual Spy Value 11.04
+Actual Card Value 3.0
+Curr Total 8.0
+Total value for player: 11.0
+===== Player's Call =====
+player spy []
+KAVYA: 11.0 0 13.0 11
+Actual Spy Value 10.03
+Actual Card Value 2.0
+Curr Total 11.0
+Total value for player: 13.0
+===== Player's Call =====
+player spy [21.71 20.17 17.79 15.89 14.55 12.83 12.22 11.85 11.04 10.03]
+KAVYA: 13.0 0 23.0 11
+Final player score:  13.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 13.0 0 23.0 11
+Actual Spy Value -0.85
+Actual Card Value 11.0
+Curr Total 0
+Total value for dealer: 11.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 13.0 11.0 23.0 20.0
+Final dealer score:  11.0
+scoreboard: {'player_bust': 22, 'surrender': 364, 'dealer_bust': 251, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 268.0
+===== Game: 1. player_idx: 10. dealer_idx: 7. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 5 10
+Actual Spy Value 200.21
+Actual Card Value 2.0
+Curr Total 0
+Total value for player: 2.0
+===== Player's Call =====
+player spy []
+KAVYA: 2.0 0 8.0 10
+Actual Spy Value 74.23
+Actual Card Value 6.0
+Curr Total 2.0
+Total value for player: 8.0
+===== Player's Call =====
+player spy []
+KAVYA: 8.0 0 11.0 10
+Actual Spy Value 50.93
+Actual Card Value 3.0
+Curr Total 8.0
+Total value for player: 11.0
+===== Player's Call =====
+player spy []
+KAVYA: 11.0 0 22.0 10
+Final player score:  11.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 11.0 0 22.0 10
+Actual Spy Value -1.24
+Actual Card Value 11.0
+Curr Total 0
+Total value for dealer: 11.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 11.0 11.0 22.0 17.0
+Final dealer score:  11.0
+scoreboard: {'player_bust': 22, 'surrender': 365, 'dealer_bust': 251, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 267.5
+===== Game: 1. player_idx: 9. dealer_idx: 7. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 2 2
+Actual Spy Value 49.78
+Actual Card Value 2.0
+Curr Total 0
+Total value for player: 2.0
+===== Player's Call =====
+player spy []
+KAVYA: 2.0 0 13.0 2
+Actual Spy Value 39.11
+Actual Card Value 11.0
+Curr Total 2.0
+Total value for player: 13.0
+===== Player's Call =====
+player spy []
+KAVYA: 13.0 0 17.0 2
+Actual Spy Value 32.74
+Actual Card Value 5.0
+Curr Total 13.0
+Total value for player: 18.0
+===== Player's Call =====
+player spy []
+KAVYA: 18.0 0 27.0 2
+Final player score:  18.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 0 27.0 2
+Actual Spy Value 9.97
+Actual Card Value 2.0
+Curr Total 0
+Total value for dealer: 2.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 2.0 27.0 12.0
+Actual Spy Value 8.25
+Actual Card Value 10.0
+Curr Total 2.0
+Total value for dealer: 12.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 12.0 27.0 14.0
+Actual Spy Value 10.13
+Actual Card Value 2.0
+Curr Total 12.0
+Total value for dealer: 14.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 14.0 27.0 20.0
+Final dealer score:  14.0
+scoreboard: {'player_bust': 22, 'surrender': 366, 'dealer_bust': 251, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 267.0
+===== Game: 1. player_idx: 9. dealer_idx: 9. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 5 3
+Actual Spy Value 32.81
+Actual Card Value 5.0
+Curr Total 0
+Total value for player: 5.0
+===== Player's Call =====
+player spy []
+KAVYA: 5.0 0 14.0 3
+Actual Spy Value 27.16
+Actual Card Value 9.0
+Curr Total 5.0
+Total value for player: 14.0
+===== Player's Call =====
+player spy []
+KAVYA: 14.0 0 20.0 3
+Actual Spy Value 23.97
+Actual Card Value 6.0
+Curr Total 14.0
+Total value for player: 20.0
+===== Player's Call =====
+player spy []
+KAVYA: 20.0 0 24.0 3
+Final player score:  20.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 0 24.0 3
+Actual Spy Value -8.89
+Actual Card Value 3.0
+Curr Total 0
+Total value for dealer: 3.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 3.0 24.0 13.0
+Actual Spy Value 7.76
+Actual Card Value 10.0
+Curr Total 3.0
+Total value for dealer: 13.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 13.0 24.0 15.0
+Actual Spy Value 10.22
+Actual Card Value 2.0
+Curr Total 13.0
+Total value for dealer: 15.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 15.0 24.0 26.0
+Actual Spy Value 9.47
+Actual Card Value 11.0
+Curr Total 15.0
+Total value for dealer: 26.0
+Final dealer score:  26.0
+scoreboard: {'player_bust': 22, 'surrender': 366, 'dealer_bust': 252, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 268.0
+===== Game: 1. player_idx: 9. dealer_idx: 10. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 9 11
+Actual Spy Value 26.3
+Actual Card Value 8.0
+Curr Total 0
+Total value for player: 8.0
+===== Player's Call =====
+player spy []
+KAVYA: 8.0 0 13.0 11
+Actual Spy Value 23.22
+Actual Card Value 5.0
+Curr Total 8.0
+Total value for player: 13.0
+===== Player's Call =====
+player spy []
+KAVYA: 13.0 0 16.0 11
+Actual Spy Value 20.24
+Actual Card Value 2.0
+Curr Total 13.0
+Total value for player: 15.0
+===== Player's Call =====
+player spy []
+KAVYA: 15.0 0 25.0 11
+Final player score:  15.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 0 25.0 11
+Actual Spy Value 8.26
+Actual Card Value 10.0
+Curr Total 0
+Total value for dealer: 10.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 10.0 25.0 21.0
+Final dealer score:  10.0
+scoreboard: {'player_bust': 22, 'surrender': 367, 'dealer_bust': 252, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 267.5
+===== Game: 1. player_idx: 9. dealer_idx: 7. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 4 2
+Actual Spy Value 22.06
+Actual Card Value 4.0
+Curr Total 0
+Total value for player: 4.0
+===== Player's Call =====
+player spy []
+KAVYA: 4.0 0 15.0 2
+Actual Spy Value 19.06
+Actual Card Value 11.0
+Curr Total 4.0
+Total value for player: 15.0
+===== Player's Call =====
+player spy []
+KAVYA: 15.0 0 24.0 2
+Final player score:  15.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 0 24.0 2
+Actual Spy Value -10.33
+Actual Card Value 2.0
+Curr Total 0
+Total value for dealer: 2.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 2.0 24.0 4.0
+Actual Spy Value -10.21
+Actual Card Value 2.0
+Curr Total 2.0
+Total value for dealer: 4.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 4.0 24.0 12.0
+Actual Spy Value -3.83
+Actual Card Value 8.0
+Curr Total 4.0
+Total value for dealer: 12.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 12.0 24.0 17.0
+Final dealer score:  12.0
+scoreboard: {'player_bust': 22, 'surrender': 368, 'dealer_bust': 252, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 267.0
+===== Game: 1. player_idx: 8. dealer_idx: 9. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 8 4
+Actual Spy Value 15.54
+Actual Card Value 8.0
+Curr Total 0
+Total value for player: 8.0
+===== Player's Call =====
+player spy []
+KAVYA: 8.0 0 15.0 4
+Actual Spy Value 15.21
+Actual Card Value 7.0
+Curr Total 8.0
+Total value for player: 15.0
+===== Player's Call =====
+player spy []
+KAVYA: 15.0 0 22.0 4
+Final player score:  15.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 0 22.0 4
+Actual Spy Value -8.15
+Actual Card Value 4.0
+Curr Total 0
+Total value for dealer: 4.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 4.0 22.0 14.0
+Actual Spy Value -1.53
+Actual Card Value 10.0
+Curr Total 4.0
+Total value for dealer: 14.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 14.0 22.0 20.0
+Final dealer score:  14.0
+scoreboard: {'player_bust': 22, 'surrender': 369, 'dealer_bust': 252, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 266.5
+===== Game: 1. player_idx: 8. dealer_idx: 8. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 6 3
+Actual Spy Value 14.18
+Actual Card Value 6.0
+Curr Total 0
+Total value for player: 6.0
+===== Player's Call =====
+player spy []
+KAVYA: 6.0 0 12.0 3
+Actual Spy Value 13.85
+Actual Card Value 6.0
+Curr Total 6.0
+Total value for player: 12.0
+===== Player's Call =====
+player spy []
+KAVYA: 12.0 0 17.0 3
+Actual Spy Value 12.75
+Actual Card Value 5.0
+Curr Total 12.0
+Total value for player: 17.0
+===== Player's Call =====
+player spy []
+KAVYA: 17.0 0 21.0 3
+Actual Spy Value 12.02
+Actual Card Value 4.0
+Curr Total 17.0
+Total value for player: 21.0
+===== Player's Call =====
+player spy [27.27 24.36 20.72 18.87 16.3  15.43 14.18 13.85 12.75 12.02]
+KAVYA: 21.0 0 24.0 3
+Final player score:  21.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 21.0 0 24.0 3
+Actual Spy Value -9.08
+Actual Card Value 3.0
+Curr Total 0
+Total value for dealer: 3.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 21.0 3.0 24.0 14.0
+Actual Spy Value 9.57
+Actual Card Value 2.0
+Curr Total 3.0
+Total value for dealer: 5.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 21.0 5.0 24.0 16.0
+Actual Spy Value 8.65
+Actual Card Value 11.0
+Curr Total 5.0
+Total value for dealer: 16.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 21.0 16.0 24.0 23.0
+Actual Spy Value 5.0
+Actual Card Value 7.0
+Curr Total 16.0
+Total value for dealer: 23.0
+Final dealer score:  23.0
+scoreboard: {'player_bust': 22, 'surrender': 369, 'dealer_bust': 253, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 267.5
+===== Game: 1. player_idx: 10. dealer_idx: 10. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 7 11
+Actual Spy Value 14.91
+Actual Card Value 7.0
+Curr Total 0
+Total value for player: 7.0
+===== Player's Call =====
+player spy []
+KAVYA: 7.0 0 13.0 11
+Actual Spy Value 13.94
+Actual Card Value 6.0
+Curr Total 7.0
+Total value for player: 13.0
+===== Player's Call =====
+player spy []
+KAVYA: 13.0 0 18.0 11
+Actual Spy Value 12.61
+Actual Card Value 5.0
+Curr Total 13.0
+Total value for player: 18.0
+===== Player's Call =====
+player spy []
+KAVYA: 18.0 0 22.0 11
+Final player score:  18.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 0 22.0 11
+Actual Spy Value -0.64
+Actual Card Value 11.0
+Curr Total 0
+Total value for dealer: 11.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 11.0 22.0 13.0
+Actual Spy Value 0.12
+Actual Card Value 2.0
+Curr Total 11.0
+Total value for dealer: 13.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 13.0 22.0 24.0
+Actual Spy Value 8.98
+Actual Card Value 11.0
+Curr Total 13.0
+Total value for dealer: 24.0
+Final dealer score:  24.0
+scoreboard: {'player_bust': 22, 'surrender': 369, 'dealer_bust': 254, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 268.5
+===== Game: 1. player_idx: 9. dealer_idx: 9. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 4 2
+Actual Spy Value 12.07
+Actual Card Value 4.0
+Curr Total 0
+Total value for player: 4.0
+===== Player's Call =====
+player spy []
+KAVYA: 4.0 0 7.0 2
+Actual Spy Value 11.25
+Actual Card Value 3.0
+Curr Total 4.0
+Total value for player: 7.0
+===== Player's Call =====
+player spy []
+KAVYA: 7.0 0 17.0 2
+Actual Spy Value 11.39
+Actual Card Value 3.0
+Curr Total 7.0
+Total value for player: 10.0
+===== Player's Call =====
+player spy []
+KAVYA: 10.0 0 13.0 2
+Actual Spy Value 11.16
+Actual Card Value 3.0
+Curr Total 10.0
+Total value for player: 13.0
+===== Player's Call =====
+player spy [20.12 18.36 16.6  15.35 14.32 13.11 12.07 11.25 11.39 11.16]
+KAVYA: 13.0 0 20.0 2
+Actual Spy Value 199.86
+Actual Card Value 2.0
+Curr Total 13.0
+Total value for player: 15.0
+===== Player's Call =====
+player spy [ 18.36  16.6   15.35  14.32  13.11  12.07  11.25  11.39  11.16 199.86]
+KAVYA: 15.0 0 21.0 2
+Actual Spy Value 73.46
+Actual Card Value 5.0
+Curr Total 15.0
+Total value for player: 20.0
+===== Player's Call =====
+player spy [ 16.6   15.35  14.32  13.11  12.07  11.25  11.39  11.16 199.86  73.46]
+KAVYA: 20.0 0 23.0 2
+Final player score:  20.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 0 23.0 2
+Actual Spy Value 10.63
+Actual Card Value 3.0
+Curr Total 0
+Total value for dealer: 3.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 3.0 23.0 14.0
+Actual Spy Value 8.65
+Actual Card Value 11.0
+Curr Total 3.0
+Total value for dealer: 14.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 14.0 23.0 21.0
+Final dealer score:  14.0
+scoreboard: {'player_bust': 22, 'surrender': 370, 'dealer_bust': 254, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 268.0
+===== Game: 1. player_idx: 12. dealer_idx: 8. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 4 2
+Actual Spy Value 11.62
+Actual Card Value 4.0
+Curr Total 0
+Total value for player: 4.0
+===== Player's Call =====
+player spy []
+KAVYA: 4.0 0 10.0 2
+Actual Spy Value 11.73
+Actual Card Value 4.0
+Curr Total 4.0
+Total value for player: 8.0
+===== Player's Call =====
+player spy []
+KAVYA: 8.0 0 11.0 2
+Actual Spy Value 11.19
+Actual Card Value 3.0
+Curr Total 8.0
+Total value for player: 11.0
+===== Player's Call =====
+player spy []
+KAVYA: 11.0 0 19.0 2
+Actual Spy Value 10.62
+Actual Card Value 3.0
+Curr Total 11.0
+Total value for player: 14.0
+===== Player's Call =====
+player spy [15.99 15.82 14.79 12.74 11.89 11.92 11.62 11.73 11.19 10.62]
+KAVYA: 14.0 0 25.0 2
+Final player score:  14.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 0 25.0 2
+Actual Spy Value 9.97
+Actual Card Value 2.0
+Curr Total 0
+Total value for dealer: 2.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 2.0 25.0 9.0
+Actual Spy Value 5.57
+Actual Card Value 8.0
+Curr Total 2.0
+Total value for dealer: 10.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 10.0 25.0 12.0
+Actual Spy Value 9.81
+Actual Card Value 2.0
+Curr Total 10.0
+Total value for dealer: 12.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 12.0 25.0 23.0
+Actual Spy Value 8.97
+Actual Card Value 11.0
+Curr Total 12.0
+Total value for dealer: 23.0
+Final dealer score:  23.0
+scoreboard: {'player_bust': 22, 'surrender': 370, 'dealer_bust': 255, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 269.0
+===== Game: 1. player_idx: 10. dealer_idx: 10. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 2 3
+Actual Spy Value 39.46
+Actual Card Value 11.0
+Curr Total 0
+Total value for player: 11.0
+===== Player's Call =====
+player spy []
+KAVYA: 11.0 0 15.0 3
+Actual Spy Value 31.38
+Actual Card Value 3.0
+Curr Total 11.0
+Total value for player: 14.0
+===== Player's Call =====
+player spy []
+KAVYA: 14.0 0 23.0 3
+Final player score:  14.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 0 23.0 3
+Actual Spy Value 1.08
+Actual Card Value 3.0
+Curr Total 0
+Total value for dealer: 3.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 3.0 23.0 14.0
+Actual Spy Value 8.97
+Actual Card Value 11.0
+Curr Total 3.0
+Total value for dealer: 14.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 14.0 23.0 17.0
+Final dealer score:  14.0
+scoreboard: {'player_bust': 22, 'surrender': 371, 'dealer_bust': 255, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 268.5
+===== Game: 1. player_idx: 8. dealer_idx: 8. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 7 5
+Actual Spy Value 24.64
+Actual Card Value 7.0
+Curr Total 0
+Total value for player: 7.0
+===== Player's Call =====
+player spy []
+KAVYA: 7.0 0 11.0 5
+Actual Spy Value 22.12
+Actual Card Value 4.0
+Curr Total 7.0
+Total value for player: 11.0
+===== Player's Call =====
+player spy []
+KAVYA: 11.0 0 13.0 5
+Actual Spy Value 20.55
+Actual Card Value 3.0
+Curr Total 11.0
+Total value for player: 14.0
+===== Player's Call =====
+player spy []
+KAVYA: 14.0 0 24.0 5
+Final player score:  14.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 0 24.0 5
+Actual Spy Value 3.21
+Actual Card Value 5.0
+Curr Total 0
+Total value for dealer: 5.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 5.0 24.0 9.0
+Actual Spy Value -8.61
+Actual Card Value 3.0
+Curr Total 5.0
+Total value for dealer: 8.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 8.0 24.0 12.0
+Actual Spy Value 2.18
+Actual Card Value 4.0
+Curr Total 8.0
+Total value for dealer: 12.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 12.0 24.0 21.0
+Final dealer score:  12.0
+scoreboard: {'player_bust': 22, 'surrender': 372, 'dealer_bust': 255, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 268.0
+===== Game: 1. player_idx: 9. dealer_idx: 9. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 3 11
+Actual Spy Value 21.49
+Actual Card Value 3.0
+Curr Total 0
+Total value for player: 3.0
+===== Player's Call =====
+player spy []
+KAVYA: 3.0 0 5.0 11
+Actual Spy Value 20.16
+Actual Card Value 2.0
+Curr Total 3.0
+Total value for player: 5.0
+===== Player's Call =====
+player spy []
+KAVYA: 5.0 0 15.0 11
+Actual Spy Value 18.18
+Actual Card Value 10.0
+Curr Total 5.0
+Total value for player: 15.0
+===== Player's Call =====
+player spy []
+KAVYA: 15.0 0 24.0 11
+Final player score:  15.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 0 24.0 11
+Actual Spy Value 9.34
+Actual Card Value 11.0
+Curr Total 0
+Total value for dealer: 11.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 15.0 11.0 24.0 18.0
+Final dealer score:  11.0
+scoreboard: {'player_bust': 22, 'surrender': 373, 'dealer_bust': 255, 'player_win': 241, 'dealer_win': 20, 'tie': 82}
+score: 267.5
+===== Game: 1. player_idx: 9. dealer_idx: 7. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 7 10
+Actual Spy Value 15.33
+Actual Card Value 7.0
+Curr Total 0
+Total value for player: 7.0
+===== Player's Call =====
+player spy []
+KAVYA: 7.0 0 13.0 10
+Actual Spy Value 13.93
+Actual Card Value 6.0
+Curr Total 7.0
+Total value for player: 13.0
+===== Player's Call =====
+player spy []
+KAVYA: 13.0 0 18.0 10
+Actual Spy Value 12.57
+Actual Card Value 5.0
+Curr Total 13.0
+Total value for player: 18.0
+===== Player's Call =====
+player spy []
+KAVYA: 18.0 0 22.0 10
+Final player score:  18.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 0 22.0 10
+Actual Spy Value 7.85
+Actual Card Value 10.0
+Curr Total 0
+Total value for dealer: 10.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 10.0 22.0 13.0
+Actual Spy Value -8.93
+Actual Card Value 3.0
+Curr Total 10.0
+Total value for dealer: 13.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 13.0 22.0 15.0
+Actual Spy Value 9.98
+Actual Card Value 2.0
+Curr Total 13.0
+Total value for dealer: 15.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 15.0 22.0 17.0
+Actual Spy Value 9.5
+Actual Card Value 2.0
+Curr Total 15.0
+Total value for dealer: 17.0
+Final dealer score:  17.0
+scoreboard: {'player_bust': 22, 'surrender': 373, 'dealer_bust': 255, 'player_win': 242, 'dealer_win': 20, 'tie': 82}
+score: 268.5
+===== Game: 1. player_idx: 9. dealer_idx: 10. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 6 8
+Actual Spy Value 14.34
+Actual Card Value 6.0
+Curr Total 0
+Total value for player: 6.0
+===== Player's Call =====
+player spy []
+KAVYA: 6.0 0 12.0 8
+Actual Spy Value 14.06
+Actual Card Value 6.0
+Curr Total 6.0
+Total value for player: 12.0
+===== Player's Call =====
+player spy []
+KAVYA: 12.0 0 17.0 8
+Actual Spy Value 12.42
+Actual Card Value 4.0
+Curr Total 12.0
+Total value for player: 16.0
+===== Player's Call =====
+player spy []
+KAVYA: 16.0 0 19.0 8
+Actual Spy Value 10.88
+Actual Card Value 3.0
+Curr Total 16.0
+Total value for player: 19.0
+===== Player's Call =====
+player spy [23.18 20.71 19.26 17.86 17.13 15.57 14.34 14.06 12.42 10.88]
+KAVYA: 19.0 0 27.0 8
+Final player score:  19.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 19.0 0 27.0 8
+Actual Spy Value 5.56
+Actual Card Value 8.0
+Curr Total 0
+Total value for dealer: 8.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 19.0 8.0 27.0 11.0
+Actual Spy Value 0.75
+Actual Card Value 3.0
+Curr Total 8.0
+Total value for dealer: 11.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 19.0 11.0 27.0 22.0
+Actual Spy Value 9.08
+Actual Card Value 11.0
+Curr Total 11.0
+Total value for dealer: 22.0
+Final dealer score:  22.0
+scoreboard: {'player_bust': 22, 'surrender': 373, 'dealer_bust': 256, 'player_win': 242, 'dealer_win': 20, 'tie': 82}
+score: 269.5
+===== Game: 1. player_idx: 10. dealer_idx: 9. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 4 9
+Actual Spy Value 12.33
+Actual Card Value 4.0
+Curr Total 0
+Total value for player: 4.0
+===== Player's Call =====
+player spy []
+KAVYA: 4.0 0 7.0 9
+Actual Spy Value 11.22
+Actual Card Value 3.0
+Curr Total 4.0
+Total value for player: 7.0
+===== Player's Call =====
+player spy []
+KAVYA: 7.0 0 16.0 9
+Actual Spy Value 11.53
+Actual Card Value 4.0
+Curr Total 7.0
+Total value for player: 11.0
+===== Player's Call =====
+player spy []
+KAVYA: 11.0 0 14.0 9
+Actual Spy Value 11.72
+Actual Card Value 4.0
+Curr Total 11.0
+Total value for player: 15.0
+===== Player's Call =====
+player spy [19.72 18.13 16.14 14.78 13.53 12.85 12.33 11.22 11.53 11.72]
+KAVYA: 15.0 0 20.0 9
+Actual Spy Value 11.08
+Actual Card Value 3.0
+Curr Total 15.0
+Total value for player: 18.0
+===== Player's Call =====
+player spy [18.13 16.14 14.78 13.53 12.85 12.33 11.22 11.53 11.72 11.08]
+KAVYA: 18.0 0 29.0 9
+Final player score:  18.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 0 29.0 9
+Actual Spy Value -3.04
+Actual Card Value 9.0
+Curr Total 0
+Total value for dealer: 9.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 18.0 9.0 29.0 18.0
+Actual Spy Value 7.02
+Actual Card Value 9.0
+Curr Total 9.0
+Total value for dealer: 18.0
+Final dealer score:  18.0
+scoreboard: {'player_bust': 22, 'surrender': 373, 'dealer_bust': 256, 'player_win': 242, 'dealer_win': 20, 'tie': 83}
+score: 269.5
+===== Game: 1. player_idx: 11. dealer_idx: 8. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 4 9
+Actual Spy Value 12.51
+Actual Card Value 5.0
+Curr Total 0
+Total value for player: 5.0
+===== Player's Call =====
+player spy []
+KAVYA: 5.0 0 9.0 9
+Actual Spy Value 11.87
+Actual Card Value 4.0
+Curr Total 5.0
+Total value for player: 9.0
+===== Player's Call =====
+player spy []
+KAVYA: 9.0 0 12.0 9
+Actual Spy Value 11.07
+Actual Card Value 3.0
+Curr Total 9.0
+Total value for player: 12.0
+===== Player's Call =====
+player spy []
+KAVYA: 12.0 0 19.0 9
+Actual Spy Value 200.4
+Actual Card Value 2.0
+Curr Total 12.0
+Total value for player: 14.0
+===== Player's Call =====
+player spy [ 19.12  17.15  15.87  15.12  14.16  13.27  12.51  11.87  11.07 200.4 ]
+KAVYA: 14.0 0 20.0 9
+Actual Spy Value 74.42
+Actual Card Value 6.0
+Curr Total 14.0
+Total value for player: 20.0
+===== Player's Call =====
+player spy [ 17.15  15.87  15.12  14.16  13.27  12.51  11.87  11.07 200.4   74.42]
+KAVYA: 20.0 0 23.0 9
+Final player score:  20.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 0 23.0 9
+Actual Spy Value -3.3
+Actual Card Value 9.0
+Curr Total 0
+Total value for dealer: 9.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 9.0 23.0 14.0
+Actual Spy Value -7.32
+Actual Card Value 5.0
+Curr Total 9.0
+Total value for dealer: 14.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 20.0 14.0 23.0 22.0
+Actual Spy Value -4.05
+Actual Card Value 8.0
+Curr Total 14.0
+Total value for dealer: 22.0
+Final dealer score:  22.0
+scoreboard: {'player_bust': 22, 'surrender': 373, 'dealer_bust': 257, 'player_win': 242, 'dealer_win': 20, 'tie': 83}
+score: 270.5
+===== Game: 1. player_idx: 11. dealer_idx: 9. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 6 6
+Actual Spy Value 10.66
+Actual Card Value 3.0
+Curr Total 0
+Total value for player: 3.0
+===== Player's Call =====
+player spy []
+KAVYA: 3.0 0 11.0 6
+Actual Spy Value 200.09
+Actual Card Value 2.0
+Curr Total 3.0
+Total value for player: 5.0
+===== Player's Call =====
+player spy []
+KAVYA: 5.0 0 11.0 6
+Actual Spy Value 74.2
+Actual Card Value 6.0
+Curr Total 5.0
+Total value for player: 11.0
+===== Player's Call =====
+player spy []
+KAVYA: 11.0 0 14.0 6
+Actual Spy Value 50.94
+Actual Card Value 3.0
+Curr Total 11.0
+Total value for player: 14.0
+===== Player's Call =====
+player spy [ 15.11  14.39  13.87  12.47  12.3   11.53  10.66 200.09  74.2   50.94]
+KAVYA: 14.0 0 25.0 6
+Final player score:  14.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 0 25.0 6
+Actual Spy Value 3.48
+Actual Card Value 5.0
+Curr Total 0
+Total value for dealer: 5.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 5.0 25.0 13.0
+Actual Spy Value -4.51
+Actual Card Value 7.0
+Curr Total 5.0
+Total value for dealer: 12.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 14.0 12.0 25.0 22.0
+Actual Spy Value 8.39
+Actual Card Value 10.0
+Curr Total 12.0
+Total value for dealer: 22.0
+Final dealer score:  22.0
+scoreboard: {'player_bust': 22, 'surrender': 373, 'dealer_bust': 258, 'player_win': 242, 'dealer_win': 20, 'tie': 83}
+score: 271.5
+===== Game: 1. player_idx: 10. dealer_idx: 9. =====
+===== Game: 0. player_idx: 6. dealer_idx: 6. =====
+===== Player's Call =====
+player spy []
+KAVYA: 0 0 3 4
+Actual Spy Value 51.09
+Actual Card Value 3.0
+Curr Total 0
+Total value for player: 3.0
+===== Player's Call =====
+player spy []
+KAVYA: 3.0 0 5.0 4
+Actual Spy Value 39.89
+Actual Card Value 2.0
+Curr Total 3.0
+Total value for player: 5.0
+===== Player's Call =====
+player spy []
+KAVYA: 5.0 0 10.0 4
+Actual Spy Value 32.54
+Actual Card Value 5.0
+Curr Total 5.0
+Total value for player: 10.0
+===== Player's Call =====
+player spy []
+KAVYA: 10.0 0 20.0 4
+Actual Spy Value 27.46
+Actual Card Value 9.0
+Curr Total 10.0
+Total value for player: 19.0
+===== Player's Call =====
+player spy [ 12.78  11.74  10.84  10.58 199.55  73.77  51.09  39.89  32.54  27.46]
+KAVYA: 19.0 0 25.0 4
+Final player score:  19.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 19.0 0 25.0 4
+Actual Spy Value -7.51
+Actual Card Value 4.0
+Curr Total 0
+Total value for dealer: 4.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 19.0 4.0 25.0 6.0
+Actual Spy Value 9.98
+Actual Card Value 2.0
+Curr Total 4.0
+Total value for dealer: 6.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 19.0 6.0 25.0 13.0
+Actual Spy Value -4.9
+Actual Card Value 7.0
+Curr Total 6.0
+Total value for dealer: 13.0
+===== Dealer's Call =====
+dealer spy []
+KAVYA: 19.0 13.0 25.0 15.0
+Actual Spy Value 10.02
+Actual Card Value 2.0
+Curr Total 13.0
+Total value for dealer: 15.0
+===== Dealer's Call =====
+dealer spy [ 9.39 -0.47 -0.42  9.91  9.14  9.93 -7.51  9.98 -4.9  10.02]
+KAVYA: 19.0 15.0 25.0 25.0
+Actual Spy Value 8.68
+Actual Card Value 11.0
+Curr Total 15.0
+Total value for dealer: 26.0
+Final dealer score:  26.0
+scoreboard: {'player_bust': 22, 'surrender': 373, 'dealer_bust': 259, 'player_win': 242, 'dealer_win': 20, 'tie': 83}
+score: 272.5
+===== Game: 1. player_idx: 10. dealer_idx: 11. =====
+272.5

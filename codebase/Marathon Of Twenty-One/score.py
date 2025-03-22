@@ -144,7 +144,7 @@ def score_game(player_data,dealer_data,player,num_games=200,debug=False):
     return score
 
 if __name__=='__main__':
-    table_index=3
+    table_index=1
     player=Player.MyPlayer(table_index)
     player_data=Player.data_loader("train.csv",table_index,'player')
     dealer_data=Player.data_loader("train.csv",table_index,'dealer')
