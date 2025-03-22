@@ -347,8 +347,54 @@ class MyPlayer:
             if turn=="player" output either string "hit" or "stand" based on your decision
             else if turn=="dealer" output either string "surrender" or "continue" based on your decision
         """
-
+        player_spy_prediction = 0
+        if len(curr_spy_history_player) < 5:
+            # we should concatenate 0 at the beginning to make it 5
+            curr_spy_history_dealer = [0]*(5-len(curr_spy_history_player)) + curr_spy_history_player
+            # player_spy_prediction = np.mean(curr_spy_history_player)
+        player_spy_prediction = self.get_player_spy_prediction(np.array(curr_spy_history_player[-5:]))
+        player_card_prediction = self.get_card_value_from_spy_value(player_spy_prediction)
+        modified_player_total = curr_player_total + player_card_prediction
+        dealer_spy_prediction = 0
+        if len(curr_spy_history_dealer) < 5:
+            curr_spy_history_dealer = [0]*(5-len(curr_spy_history_dealer)) + curr_spy_history_dealer
+            # dealer_spy_prediction = np.mean(curr_spy_history_dealer)
+        dealer_spy_prediction = self.get_dealer_spy_prediction(np.array(curr_spy_history_dealer[-5:]))
+        dealer_card_prediction = self.get_card_value_from_spy_value(dealer_spy_prediction)
+        modified_dealer_total = curr_dealer_total + dealer_card_prediction
         if turn=='player':
-            return 'stand'
+            if curr_dealer_total >= 20:
+                return "stand"
+            if curr_player_total > 16:
+                return "stand"
+            return "hit"
         else:
-            return 'surrender'
+            if modified_dealer_total >= 20:
+                return "surrender"
+            if modified_player_total > 21:
+                return "surrender"
+            return "continue"
+        # if turn=='player':
+        #     if modified_player_total > 21:
+        #         return "stand"
+        #     if modified_player_total == 21:
+        #         return "hit"
+        #     if modified_dealer_total > 21:
+        #         return "stand"
+        #     if modified_dealer_total > 16:
+        #         if modified_player_total > modified_dealer_total:
+        #             return "stand"
+        #         return "hit"
+        #     return "hit"
+                
+
+            
+        # else:
+        #     if modified_dealer_total > 21:
+        #         return "surrender"
+        #     if modified_dealer_total > 16:
+        #         if modified_player_total > 21:
+        #             return "surrender"
+        #         return "continue"
+        #     return "continue"
+            
