@@ -30,7 +30,7 @@ def score_mse(test_data,mode,player):
     return mse
 
 if __name__=='__main__':
-    table_index=0
+    table_index=4
     player=Player.MyPlayer(table_index)
     player_data=Player.data_loader("train.csv",table_index,'player')
     dealer_data=Player.data_loader("train.csv",table_index,'dealer')
