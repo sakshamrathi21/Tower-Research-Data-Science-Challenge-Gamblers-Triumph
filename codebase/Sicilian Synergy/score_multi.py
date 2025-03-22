@@ -198,4 +198,4 @@ def score_game_multi(data_path,sicily_data_path,debug=False):
     scoreboard,history,score=simulate_multi(input_player_list, input_dealer_list,player_obj,debug=debug)
     return score
 
-score_game_multi('train.csv','sicilian_train.csv',False)
+score_game_multi('train.csv','sicilian_train.csv',True)

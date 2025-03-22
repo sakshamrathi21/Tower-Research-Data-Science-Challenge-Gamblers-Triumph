@@ -73,6 +73,14 @@ class MyPlayerMulti:
             else if turn=="dealer" output a list of size len(active_tables) (this length is same as the length of all other list arguments as well). Each argument should be "continue" or "surrender". 
             The action for tables which have their entry for active_tables as False will be no-op.
         """
+        print(list_curr_spy_history_player, list_curr_spy_history_dealer,
+                            list_curr_card_history_player, 
+                            list_curr_card_history_dealer, 
+                            list_curr_player_total, 
+                            list_curr_dealer_total, 
+                            turn, 
+                            active_tables,
+                            game_index,)
         if turn=='player':
             return ['stand','stand','stand']
 
