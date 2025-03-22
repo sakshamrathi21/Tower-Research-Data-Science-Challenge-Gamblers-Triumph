@@ -129,10 +129,11 @@ class MyPlayerMulti:
             return "stand"
         
         else:  
+            curr_dealer_total = dealer_total
+            modified_dealer_total = dealer_total + predicted_next_card
+            curr_player_total = player_total
             if table_idx != len(self.choose_tables()):
-                curr_dealer_total = dealer_total
-                modified_dealer_total = dealer_total + predicted_next_card
-                curr_player_total = player_total
+                
                 if curr_dealer_total > 16:
                     if curr_player_total >= curr_dealer_total:
                         return "continue"
@@ -143,6 +144,10 @@ class MyPlayerMulti:
                     return "surrender"
                 return "continue"
             else:
+                if curr_dealer_total > 16:
+                    if curr_player_total >= curr_dealer_total:
+                        return "continue"
+                    return "surrender"
                 has_strong_correlation = any(
                     "sicily" in key and abs(info['correlation']) > 0.8 
                     for key, info in self.table_correlations.items()
@@ -150,7 +155,7 @@ class MyPlayerMulti:
                 modified_dealer_total = dealer_total + predicted_next_card
                 if has_strong_correlation and modified_dealer_total > 21:
                     return "continue"
-                if has_strong_correlation and modified_dealer_total >= player_total:
+                if has_strong_correlation and modified_dealer_total >= player_total + 4:
                     return "surrender"
 
                 return "continue"
