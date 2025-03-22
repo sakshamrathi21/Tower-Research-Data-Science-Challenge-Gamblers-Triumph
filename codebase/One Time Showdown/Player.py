@@ -368,10 +368,10 @@ class MyPlayer:
                 return "hit"
             return "stand"
         else:
-            # if curr_dealer_total > 16:
-            #     if curr_player_total >= curr_dealer_total:
-            #         return "continue"
-            #     return "surrender"
+            if curr_dealer_total > 16:
+                if curr_player_total >= curr_dealer_total:
+                    return "continue"
+                return "surrender"
             if modified_dealer_total > 21:
                 return "continue"
             if modified_dealer_total > curr_player_total:
