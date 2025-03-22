@@ -364,42 +364,16 @@ class MyPlayer:
         modified_dealer_total = curr_dealer_total + dealer_card_prediction
         print("KAVYA:", curr_player_total, curr_dealer_total, modified_player_total, modified_dealer_total)
         if turn=='player':
-            # if curr_player_total > 15:
-            #     return "stand"
             if modified_player_total <= 21:
                 return "hit"
             return "stand"
         else:
+            if curr_dealer_total > 16:
+                if curr_player_total >= curr_dealer_total:
+                    return "continue"
+                return "surrender"
             if modified_dealer_total > 21:
                 return "continue"
             if modified_dealer_total > curr_player_total:
                 return "surrender"
-            # if modified_dealer_total >= 20:
-            #     return "surrender"
-            # if modified_player_total > 21:
-            #     return "surrender"
             return "continue"
-        # if turn=='player':
-        #     if modified_player_total > 21:
-        #         return "stand"
-        #     if modified_player_total == 21:
-        #         return "hit"
-        #     if modified_dealer_total > 21:
-        #         return "stand"
-        #     if modified_dealer_total > 16:
-        #         if modified_player_total > modified_dealer_total:
-        #             return "stand"
-        #         return "hit"
-        #     return "hit"
-                
-
-            
-        # else:
-        #     if modified_dealer_total > 21:
-        #         return "surrender"
-        #     if modified_dealer_total > 16:
-        #         if modified_player_total > 21:
-        #             return "surrender"
-        #         return "continue"
-        #     return "continue"
-            
