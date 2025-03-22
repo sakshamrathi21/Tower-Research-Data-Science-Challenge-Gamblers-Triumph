@@ -24,6 +24,12 @@ def bust_probability(dealer_cards):
     output: probability of going bust on this table
     """
     bust_count = 0
-    total_rounds = len(dealer_cards)
-    
-    return 0
+    total_cards = len(dealer_cards)
+    score = 0
+    for card in dealer_cards:
+        score += card
+        if score > 16:
+            if score > 21:
+                bust_count += 1
+            score = 0
+    return bust_count/total_cards
