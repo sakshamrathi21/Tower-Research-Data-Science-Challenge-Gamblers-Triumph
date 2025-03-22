@@ -369,10 +369,10 @@ class MyPlayer:
                 return "stand"
             return "hit"
         else:
-            if modified_dealer_total >= 20:
-                return "surrender"
-            if modified_player_total > 21:
-                return "surrender"
+            # if modified_dealer_total >= 20:
+            #     return "surrender"
+            # if modified_player_total > 21:
+            #     return "surrender"
             return "continue"
         # if turn=='player':
         #     if modified_player_total > 21:
