@@ -90,6 +90,7 @@ class MyPlayerMulti:
             return self.get_card_value_from_spy_value(np.mean(spy_history))
         sicily_idx = len(self.choose_tables())
         if table_idx == sicily_idx:
+            # print("CHECK", self.table_correlations)
             for corr_table_idx in range(sicily_idx):
                 key = f"{player_or_dealer}_{corr_table_idx}_sicily"
                 if key in self.table_correlations:
@@ -112,27 +113,39 @@ class MyPlayerMulti:
     
     def _make_decision(self, player_total, dealer_total, predicted_next_card, turn, table_idx):
         """Make a strategic decision based on current totals and predicted next card"""
+        
         if turn == 'player':
             next_total = player_total + predicted_next_card
-            if next_total <= 21:
-                return "hit"
+            # print("SAKSHAM", player_total, dealer_total, predicted_next_card, turn, table_idx, len(self.choose_tables()), next_total)
+            
             if table_idx == len(self.choose_tables()):
                 has_strong_correlation = any(
                     "sicily" in key and abs(info['correlation']) > 0.8 
                     for key, info in self.table_correlations.items()
                 )
-                if has_strong_correlation and player_total < 17 and predicted_next_card <= 10:
+                print("SAKSHAM ", has_strong_correlation, next_total, predicted_next_card)
+                if has_strong_correlation and next_total <= 21:
                     return "hit"
+            if next_total <= 21:
+                return "hit"
             return "stand"
         
         else:  
-            predicted_dealer_total = dealer_total + predicted_next_card
-            if predicted_dealer_total > 21:
+            if table_idx != len(self.choose_tables()):
+                curr_dealer_total = dealer_total
+                modified_dealer_total = dealer_total + predicted_next_card
+                curr_player_total = player_total
+                if curr_dealer_total > 16:
+                    if curr_player_total >= curr_dealer_total:
+                        return "continue"
+                    return "surrender"
+                if modified_dealer_total > 21:
+                    return "continue"
+                if modified_dealer_total > curr_player_total:
+                    return "surrender"
                 return "continue"
-            if predicted_dealer_total > player_total:
-                return "surrender"
-            return "continue"
-    
+            else:
+                return "continue"
     def get_player_action_multi(self,
                             list_curr_spy_history_player, 
                             list_curr_spy_history_dealer,
