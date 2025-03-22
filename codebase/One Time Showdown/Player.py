@@ -362,13 +362,18 @@ class MyPlayer:
         dealer_spy_prediction = self.get_dealer_spy_prediction(np.array(curr_spy_history_dealer[-5:]))
         dealer_card_prediction = self.get_card_value_from_spy_value(dealer_spy_prediction)
         modified_dealer_total = curr_dealer_total + dealer_card_prediction
+        print("KAVYA:", curr_player_total, curr_dealer_total, modified_player_total, modified_dealer_total)
         if turn=='player':
-            if curr_dealer_total > 16 and curr_player_total >= curr_dealer_total:
-                return "stand"
-            # if curr_player_total > 16:
+            # if curr_player_total > 15:
             #     return "stand"
-            return "hit"
+            if modified_player_total <= 21:
+                return "hit"
+            return "stand"
         else:
+            if modified_dealer_total > 21:
+                return "continue"
+            if modified_dealer_total > curr_player_total:
+                return "surrender"
             # if modified_dealer_total >= 20:
             #     return "surrender"
             # if modified_player_total > 21:

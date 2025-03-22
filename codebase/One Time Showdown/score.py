@@ -8,6 +8,7 @@ import sklearn
 from sklearn import metrics as metrics
 import Player 
 
+scoreboard = {'player_bust':0, 'surrender':0, 'dealer_bust':0, 'player_win':0, 'dealer_win':0, 'tie':0}
 
 def score_mse(test_data,mode,player):
     test_data=test_data[:,0]
@@ -34,7 +35,6 @@ def simulate(player_data, dealer_data,player,num_games=200, debug=False):
     pstream_card=player_data[:,1]
     dstream_card=dealer_data[:,1]
     
-    scoreboard = {'player_bust':0, 'surrender':0, 'dealer_bust':0, 'player_win':0, 'dealer_win':0, 'tie':0}
     history = []
     player_idx = 6
     dealer_idx = 6
@@ -142,14 +142,14 @@ def score_game(player_data,dealer_data,table_index,cards_per_tc=20,debug=False):
         curr_dealer_data=copy.deepcopy(dealer_data[cidx:cidx+cards_per_tc])
         scoreboard,history=simulate(curr_player_data, curr_dealer_data,player,num_games=1,debug=debug)
         score=(scoreboard['player_win'] + scoreboard['dealer_bust']) - scoreboard['surrender'] * 0.5 - (scoreboard['player_bust'] + scoreboard['dealer_win'])
-        tot_score+=score
+        # tot_score+=score
         cidx+=cards_per_tc
-
+    tot_score += score
     return tot_score
 
 if __name__=='__main__':
-    table_index=0
+    table_index=2
     player_data=Player.data_loader("train.csv",table_index,'player')
     dealer_data=Player.data_loader("train.csv",table_index,'dealer')
     print("earnings")
-    print(score_game(player_data,dealer_data,table_index,debug=False))
+    print(score_game(player_data,dealer_data,table_index,debug=True))
