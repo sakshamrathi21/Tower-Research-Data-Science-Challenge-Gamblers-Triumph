@@ -122,7 +122,7 @@ def simulate(player_data, dealer_data,player,num_games=200, debug=False):
             scoreboard['dealer_bust'] += 1
         else:
             if curr_dealer_total > curr_player_total:
-                print("Dealer wins")
+                # print("Dealer wins")
                 scoreboard['dealer_win'] += 1
             elif curr_dealer_total < curr_player_total:
                 scoreboard['player_win'] += 1
@@ -140,13 +140,13 @@ def simulate(player_data, dealer_data,player,num_games=200, debug=False):
 def score_game(player_data,dealer_data,player,num_games=200,debug=False):
     scoreboard,history=simulate(player_data, dealer_data,player,num_games=num_games,debug=debug)
     score=(scoreboard['player_win'] + scoreboard['dealer_bust']) - scoreboard['surrender'] * 0.5 - (scoreboard['player_bust'] + scoreboard['dealer_win'])
-    print(scoreboard)
+    # print(scoreboard)
     return score
 
 if __name__=='__main__':
-    table_index=1
-    player=Player.MyPlayer(table_index)
-    player_data=Player.data_loader("train.csv",table_index,'player')
-    dealer_data=Player.data_loader("train.csv",table_index,'dealer')
-    print("earnings")
-    print(score_game(player_data,dealer_data,player,debug=True))
+    for table_index in range(0, 5):
+        player=Player.MyPlayer(table_index)
+        player_data=Player.data_loader("train.csv",table_index,'player')
+        dealer_data=Player.data_loader("train.csv",table_index,'dealer')
+        print("earnings")
+        print(score_game(player_data,dealer_data,player,debug=False))

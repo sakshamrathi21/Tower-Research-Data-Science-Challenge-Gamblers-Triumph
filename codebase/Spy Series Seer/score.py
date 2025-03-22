@@ -30,11 +30,12 @@ def score_mse(test_data,mode,player):
     return mse
 
 if __name__=='__main__':
-    table_index=4
-    player=Player.MyPlayer(table_index)
-    player_data=Player.data_loader("train.csv",table_index,'player')
-    dealer_data=Player.data_loader("train.csv",table_index,'dealer')
-    print("player mse")
-    print(score_mse(player_data,'player',player))
-    print("dealer mse")
-    print(score_mse(dealer_data,'dealer',player))
+    table_index=0
+    for table_index in range(0, 5):
+        player=Player.MyPlayer(table_index)
+        player_data=Player.data_loader("train.csv",table_index,'player')
+        dealer_data=Player.data_loader("train.csv",table_index,'dealer')
+        print("player mse")
+        print(score_mse(player_data,'player',player))
+        print("dealer mse")
+        print(score_mse(dealer_data,'dealer',player))
