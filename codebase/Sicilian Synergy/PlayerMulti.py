@@ -116,8 +116,6 @@ class MyPlayerMulti:
         
         if turn == 'player':
             next_total = player_total + predicted_next_card
-            # print("SAKSHAM", player_total, dealer_total, predicted_next_card, turn, table_idx, len(self.choose_tables()), next_total)
-            
             if table_idx == len(self.choose_tables()):
                 has_strong_correlation = any(
                     "sicily" in key and abs(info['correlation']) > 0.8 
@@ -145,6 +143,16 @@ class MyPlayerMulti:
                     return "surrender"
                 return "continue"
             else:
+                has_strong_correlation = any(
+                    "sicily" in key and abs(info['correlation']) > 0.8 
+                    for key, info in self.table_correlations.items()
+                )
+                modified_dealer_total = dealer_total + predicted_next_card
+                if has_strong_correlation and modified_dealer_total > 21:
+                    return "continue"
+                if has_strong_correlation and modified_dealer_total >= player_total:
+                    return "surrender"
+
                 return "continue"
     def get_player_action_multi(self,
                             list_curr_spy_history_player, 
