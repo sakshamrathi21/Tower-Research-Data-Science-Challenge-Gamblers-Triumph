@@ -363,10 +363,10 @@ class MyPlayer:
         dealer_card_prediction = self.get_card_value_from_spy_value(dealer_spy_prediction)
         modified_dealer_total = curr_dealer_total + dealer_card_prediction
         if turn=='player':
-            if curr_dealer_total >= 20:
+            if curr_dealer_total > 16 and curr_player_total >= curr_dealer_total:
                 return "stand"
-            if curr_player_total > 16:
-                return "stand"
+            # if curr_player_total > 16:
+            #     return "stand"
             return "hit"
         else:
             # if modified_dealer_total >= 20:
